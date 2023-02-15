@@ -7,7 +7,7 @@ export const Person = (props) => {
       <h1>Email: {props.email}</h1>
       <h1>Age: {props.age}</h1>
       <h1>This Person {props.isMarried ? "Is" : "Is not"} MARRIED</h1>
-      {props.Ffriends.map((friend) => (
+      {props.friends.map((friend) => (
         <h1>{friend}</h1>
       ))}
     </div>
